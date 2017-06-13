@@ -1,0 +1,8 @@
+TRANSLATION_KEY,EN,EN_WORD_COUNT,FR,FR_WORD_COUNT
+,,,,
+component_1.label.field 1,Field 1,2,Field 1 [FR],3
+component_1.label.field 2,Field 2,2,Field 2 [FR],3
+component_1.error.field 1,Field 1 error,3,Field 1 error [FR],4
+component_1.error.Field 2,Field 2 error,3,Field 2 error [FR],4
+,,,,
+,,Total words: 10 ,,Total words: 14 
