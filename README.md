@@ -1,6 +1,6 @@
 # ember-i18n-export
 
-This npm package is combines and export the [ember-i18n](https://github.com/jamesarosen/ember-i18n) translation files into a single CSV files. This also count the word of each translation key and create summary of many words per application. Useful when you need to send it to a translation department.
+This npm package is combines and export the [ember-i18n](https://github.com/jamesarosen/ember-i18n) translation files into a single CSV file. This also count the word of each translation key and create summary of many words per application. Useful when you need to send it to a translation department.
 
 ## Installing
     npm install ember-i18n-export
