@@ -76,7 +76,7 @@ function generateFile() {
 
 	let translationKeys = getTranslationKeys(translationMap);
 
-	console.log('Generating CSV file....');
+	console.log('Generating CSV file in ' + outputFilePath + '...');
 
 	writeRow(writer, null, translationMap);
 
@@ -92,7 +92,7 @@ function generateFile() {
 
 	writer.end();
 
-	console.log('Done...');
+	console.log('Done.');
 }
 
 function getWordCountColumnNameSuffix() {
