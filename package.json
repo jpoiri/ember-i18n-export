@@ -1,0 +1,18 @@
+{
+  "name": "ember-i18n-export",
+  "version": "1.0.0",
+  "description": "Export the ember-i18n translations files into single csv file, useful if you want to send it to a translation department",
+  "main": "ember-i18n-export.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Justin Poirier",
+  "license": "MIT",
+  "devDependencies": {
+    "array-contains": "0.0.1",
+    "commander": "^2.9.0",
+    "csv-write-stream": "^2.0.0",
+    "flat": "^2.0.1",
+    "wordcount": "^1.1.1"
+  }
+}
