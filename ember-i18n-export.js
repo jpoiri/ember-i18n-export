@@ -70,8 +70,13 @@ function generateFile() {
 		defaultEncoding: 'binary',
 	}));
 
+	console.log('Getting translation files...');
+
 	let translationMap = getTranslationMap();
+
 	let translationKeys = getTranslationKeys(translationMap);
+
+	console.log('Generating CSV file....');
 
 	writeRow(writer, null, translationMap);
 
@@ -86,6 +91,8 @@ function generateFile() {
 	}
 
 	writer.end();
+
+	console.log('Done...');
 }
 
 function getWordCountColumnNameSuffix() {
