@@ -9,6 +9,7 @@
 	"bin": {
 		"ember-i18n-export": "ember-i18n-export.js"
 	},
+	"repository": "https://github.com/jpoiri/ember-i18n-export.git",
 	"author": "Justin Poirier",
 	"license": "MIT",
 	"preferGlobal": true,
