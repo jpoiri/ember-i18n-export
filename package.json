@@ -1,29 +1,29 @@
 {
-	"name": "ember-i18n-export",
-	"version": "1.0.0",
-	"description": "Combine and export the ember-i18n translations files into a single csv file. Useful if you want to send text to the translations department",
-	"main": "ember-i18n-export.js",
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
-	},
-	"bin": {
-		"ember-i18n-export": "ember-i18n-export.js"
-	},
-	"repository": "https://github.com/jpoiri/ember-i18n-export.git",
-	"author": "Justin Poirier",
-	"license": "MIT",
-	"preferGlobal": true,
-	"keywords": [
-		"ember-addon",
-		"ember-i18n",
-		"csv",
-		"export"
-	],
-	"devDependencies": {
-		"array-contains": "0.0.1",
-		"commander": "^2.9.0",
-		"csv-write-stream": "^2.0.0",
-		"flat": "^2.0.1",
-		"wordcount": "^1.1.1"
-	}
+  "name": "ember-i18n-export",
+  "version": "1.0.1",
+  "description": "Combine and export the ember-i18n translations files into a single csv file. Useful if you want to send text to the translations department",
+  "main": "ember-i18n-export.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "ember-i18n-export": "ember-i18n-export.js"
+  },
+  "repository": "https://github.com/jpoiri/ember-i18n-export.git",
+  "author": "Justin Poirier",
+  "license": "MIT",
+  "preferGlobal": true,
+  "keywords": [
+    "ember-addon",
+    "ember-i18n",
+    "csv",
+    "export"
+  ],
+  "devDependencies": {
+    "array-contains": "0.0.1",
+    "commander": "^2.9.0",
+    "csv-write-stream": "^2.0.0",
+    "flat": "^2.0.1",
+    "wordcount": "^1.1.1"
+  }
 }
