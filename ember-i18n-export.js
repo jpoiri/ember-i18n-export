@@ -91,6 +91,7 @@ function exportTranslations(inputDir, inputFile, outputDir, outputFile,
 	console.log(chalk.blue(`outputMetaDataFile: ${outputMetaDataFile}`));
 	console.log(chalk.blue(`translationKeyColumnName: ${translationKeyColumnName}`));
 	console.log(chalk.blue(`localeColumnNames: ${JSON.stringify(localeColumnNames)}`));
+	console.log();
 
 	// get translation map.
 	let translationMap = getTranslationMap(inputDir, inputFile);
@@ -128,7 +129,6 @@ function generateTranslationFile(outputDir, outputFile,
 	// get output file path.
 	let outputFilePath = `${outputDir}/${outputFile}`;
 
-	console.log();
 	console.log(`Generating translation file: ${outputFilePath}`);
 
 	// check if output file exists, if no delete it.
@@ -166,7 +166,6 @@ function generateTranslationMetaFile(outputDir, outputFile, translationMap) {
 
 	let outputFilePath = `${outputDir}/${outputFile}`;
 
-	console.log();
 	console.log(`Generating translation meta data file: ${outputFilePath}`);
 
 	// generate meta file.
@@ -277,7 +276,6 @@ function getTranslationMap(inputDir, inputFile) {
 	locales.forEach(function (locale) {
 		let translationFilePath = `${inputDir}${locale}/${inputFile}`;
 
-		console.log();
 		console.log(`Getting translations from: ${translationFilePath}`);
 
 		// if there no transition file but a locale leave  it blank.
