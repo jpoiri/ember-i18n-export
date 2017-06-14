@@ -16,7 +16,7 @@ ember-i18n-export <options>
 ## Options
 
 ### inputDir
-By default the translations are looked up from the <b>app/locales</b> directory, you can override this by using the <code>inputDir</code> option.
+By default the translations are looked up from the <b>app/locales</b> folder, you can override this by using the <code>inputDir</code> option.
 ```code
 ember-i18n-export --inputDir locale/translations
 ```
@@ -29,7 +29,7 @@ ember-i18n-export --inputFile trans.js
 
 ### outputDir
 
-By default the csv files ar generated in the i18n-exports folder, you can override this by using the <code>outputDir</code> option:
+By default the csv files ar generated in the <b>i18n-exports</b> folder, you can override this by using the <code>outputDir</code> option:
 
 ```code
 ember-i18n-export --outputDir locale-translations
@@ -53,7 +53,7 @@ ember-i18n-export --outputMetaDataFile translations-export-meta.csv
 
 ### translationKeyColumnName
 
-By default the translationKey is displayed as the SYSTEM_KEY in csv file, you can override this by using the <code>translationKeyColumnName</code>:
+By default the translationKey is displayed as the <b>SYSTEM_KEY</b> in csv file, you can override this by using the <code>translationKeyColumnName</code>:
 
 ```code
 ember-i18n-export --translationKeyColumnName TRANSLATION_KEY
