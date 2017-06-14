@@ -29,7 +29,7 @@ ember-i18n-export --inputFile trans.js
 
 ### outputDir
 
-By default the csv files ar generated in the <b>i18n-exports</b> folder, you can override this by using the <code>outputDir</code> option:
+By default the csv files are generated in the <b>i18n-exports</b> folder, you can override this by using the <code>outputDir</code> option:
 
 ```code
 ember-i18n-export --outputDir locale-translations
