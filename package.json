@@ -1,6 +1,6 @@
 {
   "name": "ember-i18n-export",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Combine and export the ember-i18n translations files into a single csv file. Useful if you want to send text to the translations department",
   "main": "ember-i18n-export.js",
   "scripts": {
