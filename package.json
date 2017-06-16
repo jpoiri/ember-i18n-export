@@ -14,7 +14,6 @@
   "license": "MIT",
   "preferGlobal": true,
   "keywords": [
-    "ember-addon",
     "ember-i18n",
     "csv",
     "export"
