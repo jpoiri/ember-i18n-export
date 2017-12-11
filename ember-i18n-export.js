@@ -623,6 +623,8 @@ function logOptions(opts) {
 	console.log(chalk.blue(`outputFile: ${opts.outputFile}`));
 	console.log(chalk.blue(`journalFile: ${opts.journalFile}`));
 	console.log(chalk.blue(`metaDataFile: ${opts.metaDataFile}`));
+	console.log(chalk.blue(`showDeletedInJournal: ${opts.showDeletedInJournal}`));
+	console.log(chalk.blue(`showOldValueInJournal: ${opts.showOldValueInJournal}`));
 	console.log(chalk.blue(`translationKeyColumnName: ${opts.translationKeyColumnName}`));
 	console.log(chalk.blue(`localeColumnNames: ${JSON.stringify(opts.localeColumnNames)}`));
 	console.log();
