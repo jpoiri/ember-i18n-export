@@ -36,15 +36,15 @@ let opts = {
 };
 
 program
-	.version('1.0.0')
+	.version('1.1.1')
 	.option('--inputDir [inputDir]', 'The input directory for locales. Defaults to app/locales')
 	.option('--inputFile [inputFile]', 'The input translation file for locales. Defaults to translations.js')
 	.option('--outputFile [outputFile]', 'The output csv file. Defaults to translations.cvs')
 	.option('--outputDir [outputDir]', 'The output directory. Defaults to i18n-exports')
-	.option('--metaDataFile [metaDataFile]', 'The output csv file for meta information about each locale. Defaults to translations-meta.csv')
-	.option('--journalFile [journalFile]', 'The output csv file for meta information about each locale. Defaults to translations-updates-${timestamp}.csv')
+	.option('--metaDataFile [metaDataFile]', 'The csv file containing the meta information about each locale. Defaults to translations-meta.csv')
+	.option('--journalFile [journalFile]', 'The csv file containing journal information. Defaults to translations-updates-${timestamp}.csv')
 	.option('--showDeletedInJournal', 'Show/hide deleted translations from journal file. Defaults to false')
-	.option('--showOldValueInJournal', 'Show/hide old translations from journal file. Defaults to false')
+	.option('--showOldValueInJournal', 'Show/hide old translation value from journal file. Defaults to false')
 	.option('--translationKeyColumnName [translationKeyColumnName]',
 		'The column name for the translation key. Defaults to SYSTEM_KEY')
 	.option('--localeColumnNames [localeColumnNames]', 'The column names for each locales. Use the locale name as the key. ' +
