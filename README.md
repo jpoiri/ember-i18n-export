@@ -43,12 +43,36 @@ By default the csv file containing the consolidates translations is named <b>tra
 ember-i18n-export --outputFile translations-export.csv
 ```
 
-### outputMetaDataFile
+### metaDataFile
 
 By default the csv file containing the meta data about the translations is named <b>translation-meta.csv</b>, you override this by using the <code>outputMetaDataFile</code> option:
 
 ```code
 ember-i18n-export --outputMetaDataFile translations-export-meta.csv
+```
+
+### journalFile
+
+By default the csv file containing the journal information is named <b>translation-updates-${timestamp}.csv</b>, you can override this by using the <code>journalFile</code> option:
+
+```code
+ember-i18n-export --journalFile translations-updates.csv
+```
+
+### showDeletedInJournal
+
+Show/hide deleted translations from the journal file. Defaults to false, you can override this by using the <code>showDeletedInJournal</code> option:
+
+```code
+ember-i18n-export --showDeletedInJournal
+```
+
+### showOldValueInJournal
+
+Show/hide old translation value from the journal file. Defaults to false, you can override this by using the <code>showOldValueInJournal</code> option:
+
+```code
+ember-i18n-export --showOldValueInJournal
 ```
 
 ### translationKeyColumnName
