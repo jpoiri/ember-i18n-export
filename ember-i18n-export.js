@@ -433,7 +433,8 @@ function getUpdatedTranslationKeys(oldTranslationMap, newTranslationMap) {
 		forEachKeys(oldTranslationMap[localKey], (translation, translationKey) => {
 			if (oldTranslationMap[localKey][translationKey]
 				&& (oldTranslationMap[localKey][translationKey] !== newTranslationMap[localKey][translationKey])
-				&& !arrayContains(deletedTranslationKeys, translationKey)) {
+				&& !arrayContains(deletedTranslationKeys, translationKey)
+				&& !arrayContains(updatedTranslationKeys, translationKey)) {
 				updatedTranslationKeys.push(translationKey);
 			}
 		});
