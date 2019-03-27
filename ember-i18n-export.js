@@ -110,7 +110,10 @@ function exportTranslations(opts) {
 			.on('headers', (headers) => {
 				let hasTranslationKey = false;
 
+
+
 				headers.forEach((header) => {
+					console.log(header);
 					if (header !== opts.translationKeyColumnName) {
 						// if locale map not created it.
 						if (!oldTranslationMap[getLocaleFromColumnName(header, opts.localeColumnNames)]) {
